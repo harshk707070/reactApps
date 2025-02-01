@@ -1,10 +1,9 @@
 {
   "name": "counter02",
+  "homepage": "http://harshk707070.github.io/counterapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://harshk707070.github.io/counter02",
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,8 +12,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -27,7 +26,6 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
-    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "vite": "^6.0.5"
   }
